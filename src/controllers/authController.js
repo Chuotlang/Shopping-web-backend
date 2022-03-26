@@ -9,7 +9,7 @@ const {OAuth2} = google.auth;
 
 const client = new OAuth2(process.env.MAILING_CLIENT_ID);
 
-const url = "https://testingone.netlify.app"
+const url = "https://st0shop.tk"
 class authController{
     async register(req,res){
         try{
